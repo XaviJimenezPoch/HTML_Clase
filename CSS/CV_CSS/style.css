@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #9c9ce9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid black;
+}
+
+header img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #555;
+  margin-top: 5px;
+}
+
+nav {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 25px;
+}
+
+nav a:hover {
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s ease;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    position: relative;
+}
