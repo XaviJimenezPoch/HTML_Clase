@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/registro" method="GET">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label>Contraseña:</label>
+        <input type="password" name="password" minlength="6">
+
+        <label>Edad:</label>
+        <input type="number" name="edad">
+
+        <label>País:</label>
+        <select name="pais">
+            <option>España</option>
+            <option>Argentina</option>
+        </select>
+
+        <label>Mensaje:</label>
+        <textarea name="mensaje"></textarea>
+
+        <input type="color">
+        <input type="range">
+        <input type="file">
+        <input type="tel">
+        <input type="url">
+        <button type="submit">Enviar</button>
+
+    </form>
+    <form>
+
+        <fieldset>
+            <legend>Registro</legend>
+
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" required>
+
+            <label>
+                <input type="checkbox"> Acepto términos
+            </label>
+
+            <button type="submit">Crear cuenta</button>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
