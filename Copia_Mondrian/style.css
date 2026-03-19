@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+#container {
+  width: 400px;
+  height: 500px;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 10px solid black;
+}
+#derTop {
+  width: 40%;
+  height: 175px;
+  background-color: #f1c40f;
+  float: right;
+  border-bottom: 10px solid black;
+}
+#izqTop {
+  width: 60%;
+  height: 350px;
+  background-color: #e63946;
+  float: left;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+#derMid {
+  width: 21%;
+  height: 175px;
+  background-color: #f8f9fa;
+  float: right;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+#izqMid {
+  width: 19%;
+  height: 175px;
+  background-color: #f8f9fa;
+  float: left;
+  border-bottom: 10px solid black;
+}
+
+#izqBot {
+  width: 30%;
+  height: 130px;
+  float: left;
+  background-color: rgb(0, 0, 0);
+}
+
+#midTopBot {
+  width: 30%;
+  height: 65px;
+  background-color: #f8f9fa;
+  float: left;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+}
+
+#derTopBot {
+  width: 40%;
+  height: 65px;
+  background-color: #f8f9fa;
+  float: left;
+  border-bottom: 10px solid black;
+}
+
+#midBotBot {
+  width: 30%;
+  height: 65px;
+  background-color: #f8f9fa;
+  float: left;
+  border-right: 10px solid black;
+}
+
+#derBotBot {
+  width: 40%;
+  height: 65px;
+  float: left;
+  background-color: #1d4ed8;
+}
