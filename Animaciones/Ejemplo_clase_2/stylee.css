@@ -1,0 +1,81 @@
+body {
+  background: #111;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.box5 {
+  font-size: 60px;
+  color: white;
+  animation: colorMove 5s infinite alternate;
+}
+
+@keyframes animacionCaja {
+  0% {
+    transform: translateX(500);
+    background: red;
+  }
+
+  50% {
+    transform: translateX(0px) scale(1.5);
+    background: yellow;
+  }
+
+  100% {
+    transform: translateX(0);
+    background: blue;
+  }
+}
+
+@keyframes colorMove {
+  0% {
+    background: red;
+    transform: translateX(0);
+  }
+
+  100% {
+    background: blue;
+    transform: translateX(900px);
+  }
+}
+
+.box {
+  animation: rebote 5s infinite 2s ease;
+}
+
+/* 
+        animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state */
+
+@keyframes rebote {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(400px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.box {
+  animation-name: rebote;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

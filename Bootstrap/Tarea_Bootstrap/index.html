@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative">
+      <div class="container-fluid">
+        <a class="navbar-brand position-absolute start-50 translate-middle-x" href="#">Pato Academia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Que es</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profesor</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cursos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Html y CSS</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Python</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ratio ratio-16x9">
+                    <img src="./white-goose-standing-lakeshore-with-confused-eyes.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pato 1</h5>
+                    <p>Este es el pato 1 de la academia.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="./closeup-shot-duck-near-pond-zoo.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pato 2</h5>
+                    <p>Este es el pato 2 de la academia.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-16x9">
+                    <img src="./closeup-shot-mallard-duck-lake.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pato 3</h5>
+                    <p>Este es el pato 3 de la academia.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <article class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Artículo sobre Pato Academia</h2>
+                            <p class="card-text">Bienvenido a Pato Academia, la mejor plataforma de educación en línea. Aquí encontrarás cursos de calidad sobre Html, CSS, JavaScript y Python.</p>
+                            <p class="card-text">Nuestros instructores son expertos en sus campos y están comprometidos con tu aprendizaje. Cada curso está diseñado para ser práctico y fácil de seguir.</p>
+                            <button class="btn btn-primary">Leer más</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container-fluid">
+            <p class="mb-1">Página hecha en Barcelona</p>
+            <p class="mb-0">por Xavier Jimenez Poch</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
